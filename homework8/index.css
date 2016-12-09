@@ -1,0 +1,47 @@
+*{margin: 0 auto;}
+#wrapper{
+	width: 500px;
+	height: 500px;
+	background-color: DeepSkyBlue;
+/* 	background-image: url(background.jpg);
+ */}
+
+#header{
+ 	width: 100%;
+ 	height: 15%;
+ 	background-color: rgb(50,109,207);
+ 	text-align: center;
+ }
+
+#header p{
+	font-size: 50px;
+	font-family: '楷体'；
+}
+
+ #cat{
+ 	width: 400px;
+ 	height: 300px;
+ 	background-color: rgb(54,79,165);
+	margin-top: 50px;
+ }
+.users{
+	width: 27%;
+	height: 70%;
+	float: left;
+}
+.users p{
+	float: right;
+	
+	padding-top: 30px;
+}
+
+ input{
+ 	margin-left: 10px;
+ 	margin-top: 30px;
+ }
+ #buttons{
+ 	margin-top: 50px;
+ }
+ #buttons button{
+ 	margin-left: 15px;
+ }

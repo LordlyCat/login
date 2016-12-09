@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录注册界面</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" defer="defer" src="index.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<p>用户登录界面</p>
+		</div>
+		<div id="cat">
+			<div class="users">
+				<p>用户名：<p>
+				<p>密码：</p>
+			</div>
+			<div class="information">
+ 				<form action="login.php" method="post" id="user">
+					<input type="text" name="username">
+					<input type="test" name="password"><br/>
+ 					<input type="submit" value="登录">
+ 				</form>   
+			</div>
+		</div>
+	</div>
+
+	<div id="wrapper">
+		<div id="header">
+			<p>用户注册界面</p>
+		</div>
+		<div id="cat">
+			<div class="users">
+				<p>用户名：<p>
+				<p>密码：</p>
+			</div>
+			<div class="information">
+ 				<form action="register.php" method="post">
+					<input type="text" name="newuser">
+					<input type="test" name="newpwd"><br/>
+ 					<input type="submit" value="注册">
+ 				</form>   
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
